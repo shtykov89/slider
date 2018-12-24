@@ -1,0 +1,63 @@
+*:focus{
+    outline: none;
+}
+
+.left{
+    position: absolute;
+    top:50%;
+    z-index: 1000;
+    left: 20%;
+    background: none;
+    border: none;
+    padding: 0px;
+    
+}
+.right{
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+    right: 20%;
+    background: none;
+    border: none;
+    padding: 0px;
+    
+}
+.slider{
+    text-align: center;
+    width: 1180px;
+    height: 786px;
+    left: 100px;
+    
+    
+}
+.bottom{
+    position: absolute;
+    width: 120px;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -100px
+}
+
+
+
+.button{
+    position: relative;
+    background: none;
+    border:none;
+    padding: 0;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+.conteiner{
+    text-align: center;
+    
+}
+.hidden{
+    display: none;
+}
+
+
